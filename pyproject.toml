@@ -29,8 +29,8 @@ dev = [
 
 [project.scripts]
 telegram-acp-connector = "telegram_acp_connector.cli:main"
-gateway = "telegram_acp_connector.cli:gateway_main"
-connector = "telegram_acp_connector.cli:connector_main"
+gateway = "telegram_acp_connector.cli:run_gateway_cli"
+connector = "telegram_acp_connector.cli:run_connector_cli"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

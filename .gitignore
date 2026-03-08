@@ -11,6 +11,8 @@ dist/
 build/
 *.egg-info/
 data/
+.telegram-acp-connector/
+.tmp-state/
 *.db
 *.sqlite3
 *.log
